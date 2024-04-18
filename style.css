@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background: #f5f6fa;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.title,
+.subtitle {
+   font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+    color: #2C3A47;
+}
+
+.courses {
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.card-text {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.container1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+.card1,.card-body1{
+    background-color: #f5f6fa;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
