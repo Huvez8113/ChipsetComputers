@@ -36,6 +36,10 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);    
 }
+.card1{
+    width: 31rem;
+    height: 25rem;
+}
 .card1,.card-body1{
     background-color: #f5f6fa;
     position: absolute;
@@ -43,8 +47,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-@media (min-width: 576px){
+@media only screen and (max-width:600px){
     .card1{
-        width : 25rem;
+        width: 22rem;
+        height: 25rem;
+    }
+    .card-body1{
+        width: 10rem;
     }
 }
