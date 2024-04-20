@@ -49,7 +49,7 @@ body {
 }
 @media only screen and (max-width:600px){
     .card1{
-        width: 22rem;
+        width: 20rem;
         height: 25rem;
     }
     .card-body1{
